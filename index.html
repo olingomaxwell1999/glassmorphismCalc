@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator With Glass Morphism</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/all.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="max">
+        <div class="imgbx bg">
+          <img src="./max.JPG" alt="" />
+        </div>
+        <div class="textbx">
+          <h2>follow him on <span>:</span></h2>
+          <div class="social">
+            <ul>
+              <li>
+                <a href="www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+              </li>
+              <li>
+                <a href="www.twitter.com"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="www.instagram.com"><i class="fab fa-instagram"></i></a>
+              </li>
+              <li>
+                <a href="www.linkedin.com"><i class="fab fa-linkedin"></i></a>
+              </li>
+              <li>
+                <a href="www.google.com"><i class="fab fa-google"></i></a>
+              </li>
+              <li>
+                <a href="www.skype.com"><i class="fab fa-skype"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="calcbx">
+        <div class="lator">
+          <form class="maxulator" name="max">
+      <input class="value" type="text" name="txt" readonly="" />
+      <span class="lyn clear" onclick="document.max.txt.value =''">c</span>
+      <span class="lyn" onclick="document.max.txt.value +='/'">/</span>
+      <span class="lyn" onclick="document.max.txt.value +='*'">*</span>
+      <span class="lyn" onclick="document.max.txt.value +='7'">7</span>
+      <span class="lyn" onclick="document.max.txt.value +='8'">8</span>
+      <span class="lyn" onclick="document.max.txt.value +='9'">9</span>
+      <span class="lyn" onclick="document.max.txt.value +='-'">-</span>
+      <span class="lyn" onclick="document.max.txt.value +='4'">4</span>
+      <span class="lyn" onclick="document.max.txt.value +='5'">5</span>
+      <span class="lyn" onclick="document.max.txt.value +='6'">6</span>
+      <span class="lyn plus" onclick="document.max.txt.value +='+'">+</span>
+      <span class="lyn" onclick="document.max.txt.value +='1'">1</span>
+      <span class="lyn" onclick="document.max.txt.value +='2'">2</span>
+      <span class="lyn" onclick="document.max.txt.value +='3'">3</span>
+      <span class="lyn" onclick="document.max.txt.value +='0'">0</span>
+      <span class="lyn" onclick="document.max.txt.value +='00'">00</span>
+      <span class="lyn" onclick="document.max.txt.value +='.'">.</span>
+      <span
+        class="lyn equals"
+        onclick="document.max.txt.value = eval(max.txt.value)"
+        >=</span
+      >
+    </form>
+        </div>
+      </div>
+    </div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
